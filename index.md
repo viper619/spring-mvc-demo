@@ -1,18 +1,21 @@
 <!DOCTYPE html>
-
 <html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>Spring MVC</h1>
 
-<body>
+    <p>Welcome</p>
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
-
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
-
-</body>
+    <ul> <!-- changed to list in the tutorial -->
+      <li>technologists</li>
+      <li>thinkers</li>
+      <li>builders</li>
+    </ul>
+    
+  </body>
 </html>
